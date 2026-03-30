@@ -2,7 +2,7 @@
 
 set -e
 
-# Run tests with `devcontainer features test -f dotnetaspire` in the parent of the src and test folders.
+# Run tests with `devcontainer features test -f aspire` in the parent of the src and test folders.
 
 source dev-container-features-test-lib
 source dotnet_env.sh
@@ -13,7 +13,7 @@ test -x "$DOTNET_ROOT/dotnet"
 check "dotnet 9.0 is installed" \
 test "$($DOTNET_ROOT/dotnet --info | grep '9.0.')"
 
-check "dotnetaspire templates are installed" \
+check "aspire templates are installed" \
 test "$DOTNET_ROOT/dotnet new aspire"
 
 # There isn't currently a good way to check what version of the templates was installed.
