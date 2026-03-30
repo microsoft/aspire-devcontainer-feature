@@ -10,10 +10,10 @@
             "proposals": [
                 "latest daily",
                 "latest",
-                "9.3"
+                "13.2"
             ],
             "default": "latest",
-            "description": "Select or enter an Aspire version. Use 'latest' for the latest supported version, '9.3.1' for the 9.3.1 version, 'X.Y' or 'X.Y.Z' for a specific version, or 'latest-daily' for the latest unsupported build."
+            "description": "Select or enter an Aspire version. Use 'latest' for the latest supported version, '13.2.0' for the 13.2.0 version, 'X.Y' or 'X.Y.Z' for a specific version, or 'latest-daily' for the latest unsupported build."
         },
         "installCli": {
             "type": "boolean",

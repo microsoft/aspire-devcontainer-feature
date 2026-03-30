@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "dotnetaspire": {
-                "version": "9.1"
+                "version": "13.2"
             }
         }
     },

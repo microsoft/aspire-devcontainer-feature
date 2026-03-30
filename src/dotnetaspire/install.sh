@@ -11,15 +11,15 @@
 set -e
 
 # Set the current latest Aspire version here
-ASPIRE_LATEST_VERSION="9.4.0"
+ASPIRE_LATEST_VERSION="13.2.0"
 
 # default to latest if not specified
 VERSION="${VERSION:-"latest"}"
 INSTALL_CLI="${INSTALLCLI:-"true"}"
 
-# Acceptable versions: 9.x, 9.x.x, latest, latest-daily
-if [[ ! $VERSION =~ ^(9\.[0-9]+(\.[0-9]+)?|latest|latest-daily)$ ]]; then
-    echo "Error: VERSION must be a valid Aspire 9.x version (e.g., '9.1', '9.2.1'), 'latest', or 'latest-daily', not: '$VERSION'."
+# Acceptable versions: X.Y, X.Y.Z, latest, latest-daily
+if [[ ! $VERSION =~ ^([0-9]+\.[0-9]+(\.[0-9]+)?|latest|latest-daily)$ ]]; then
+    echo "Error: VERSION must be a valid Aspire version (e.g., '13.2', '13.2.0'), 'latest', or 'latest-daily', not: '$VERSION'."
     exit 1
 fi
 

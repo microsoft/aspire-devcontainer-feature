@@ -15,7 +15,7 @@ Installs Aspire. See https://aspire.dev
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select or enter an Aspire version. Use 'latest' for the latest supported version, '9.1' for the 9.1 version, 'X.Y' or 'X.Y.Z' for a specific version, or 'latest-daily' for the latest unsupported build. | string | 9.1 |
+| version | Select or enter an Aspire version. Use 'latest' for the latest supported version, '13.2' for the 13.2 version, 'X.Y' or 'X.Y.Z' for a specific version, or 'latest-daily' for the latest unsupported build. | string | latest |
 
 ## Customizations
 
