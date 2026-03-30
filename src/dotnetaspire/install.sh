@@ -6,7 +6,7 @@
 #-------------------------------------------------------------------------------------------------------------
 #
 # Docs: https://github.com/devcontainers/features/tree/main/src/dotnet
-# Maintainer: The .NET Aspire team at https://github.com/dotnet/aspire
+# Maintainer: The Aspire team at https://github.com/microsoft/aspire
 
 set -e
 
@@ -28,13 +28,13 @@ if [[ $VERSION == "latest" ]]; then
     VERSION="$ASPIRE_LATEST_VERSION"
 fi
 
-echo "Activating feature '.NET Aspire' version: $VERSION"
+echo "Activating feature 'Aspire' version: $VERSION"
 
-# Before .NET Aspire 9.1 install required `dotnet workload`: this is no longer necessary, as Aspire is 
+# Before Aspire 9.1 install required `dotnet workload`: this is no longer necessary, as Aspire is 
 # installed when restoring Aspire projects. It's only necessary to install the appropriate version of the templates.
 
 if [[ $VERSION == "latest-daily" ]]; then
-    # https://github.com/dotnet/aspire/blob/main/docs/using-latest-daily.md
+    # https://github.com/microsoft/aspire/blob/main/docs/using-latest-daily.md
     dotnet nuget add source --name dotnet9 https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json
 
     # If you use Package Source Mapping, you'll also need to add the following mappings to your NuGet.config
@@ -57,4 +57,4 @@ if [[ "${INSTALL_CLI,,}" == "true" ]]; then
     curl -sSL https://aspire.dev/install.sh | bash
 fi
 
-echo "... done activating feature '.NET Aspire' version: $VERSION"
+echo "... done activating feature 'Aspire' version: $VERSION"

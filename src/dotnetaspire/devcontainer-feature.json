@@ -1,9 +1,9 @@
 {
     "id": "dotnetaspire",
     "version": "1.2.0",
-    "name": ".NET Aspire",
-    "documentationURL": "https://github.com/dotnet/aspire-devcontainer-feature",
-    "description": "Installs Aspire. See https://aka.ms/dotnetaspire",
+    "name": "Aspire",
+    "documentationURL": "https://github.com/microsoft/aspire-devcontainer-feature",
+    "description": "Installs Aspire. See https://aspire.dev",
     "options": {
         "version": {
             "type": "string",
