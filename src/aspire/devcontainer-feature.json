@@ -1,20 +1,10 @@
 {
     "id": "aspire",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "name": "Aspire",
     "documentationURL": "https://github.com/microsoft/aspire-devcontainer-feature",
     "description": "Installs Aspire. See https://aspire.dev",
     "options": {
-        "version": {
-            "type": "string",
-            "proposals": [
-                "latest daily",
-                "latest",
-                "13.2"
-            ],
-            "default": "latest",
-            "description": "Select or enter an Aspire version. Use 'latest' for the latest supported version, '13.2.0' for the 13.2.0 version, 'X.Y' or 'X.Y.Z' for a specific version, or 'latest-daily' for the latest unsupported build."
-        },
         "installCli": {
             "type": "boolean",
             "default": true,
@@ -38,9 +28,4 @@
             }
         }
     },
-    "dependsOn": {
-        "ghcr.io/devcontainers/features/dotnet": {
-            "version": "latest"
-        }
-    }
 }

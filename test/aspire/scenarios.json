@@ -1,25 +1,15 @@
 {
-    "install_aspire_exact_version": {
+    "install_aspire": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "aspire": {
-                "version": "13.2"
-            }
+            "aspire": {}
         }
     },
-    "install_aspire_latest_version": {
+    "install_aspire_without_cli": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "aspire": {
-                "version": "latest"
-            }
-        }
-    },
-    "install_aspire_latest_daily_version": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-        "features": {
-            "aspire": {
-                "version": "latest-daily"
+                "installCli": false
             }
         }
     }
