@@ -7,4 +7,7 @@ source dev-container-features-test-lib
 check "aspire CLI is installed" \
 command -v aspire
 
+check "aspire CLI runs successfully" \
+aspire --version
+
 reportResults
