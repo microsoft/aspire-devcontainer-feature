@@ -30,4 +30,5 @@ Installs Aspire. See https://aspire.dev
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/microsoft/aspire-devcontainer-feature/blob/main/src/aspire/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+> [!NOTE]
+> This file was auto-generated from the [devcontainer-feature.json](https://github.com/microsoft/aspire-devcontainer-feature/blob/main/src/aspire/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
