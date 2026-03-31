@@ -15,6 +15,7 @@
         "vscode": {
             "extensions": [
                 "ms-dotnettools.csdevkit",
+                "microsoft-aspire.aspire-vscode",
                 "ms-azuretools.vscode-bicep",
                 "GitHub.copilot-chat",
                 "GitHub.copilot"
