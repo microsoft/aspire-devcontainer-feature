@@ -1,0 +1,16 @@
+{
+    "install_aspire": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "aspire": {}
+        }
+    },
+    "install_aspire_without_cli": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "aspire": {
+                "installCli": false
+            }
+        }
+    }
+}
