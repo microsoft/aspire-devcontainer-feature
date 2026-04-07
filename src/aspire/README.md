@@ -7,7 +7,7 @@ Installs Aspire. See https://aspire.dev
 
 ```json
 "features": {
-    "ghcr.io/microsoft/aspire-devcontainer-feature/aspire:1": {}
+    "ghcr.io/microsoft/aspire-devcontainer-feature/aspire:2": {}
 }
 ```
 
@@ -22,6 +22,7 @@ Installs Aspire. See https://aspire.dev
 ### VS Code Extensions
 
 - `ms-dotnettools.csdevkit`
+- `microsoft-aspire.aspire-vscode`
 - `ms-azuretools.vscode-bicep`
 - `GitHub.copilot-chat`
 - `GitHub.copilot`
