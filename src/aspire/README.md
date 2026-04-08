@@ -1,5 +1,5 @@
 
-# Aspire
+# Aspire (aspire)
 
 Installs Aspire. See https://aspire.dev
 
@@ -31,5 +31,4 @@ Installs Aspire. See https://aspire.dev
 
 ---
 
-> [!NOTE]
-> This file was auto-generated from the [devcontainer-feature.json](https://github.com/microsoft/aspire-devcontainer-feature/blob/main/src/aspire/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/microsoft/aspire-devcontainer-feature/blob/main/src/aspire/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
