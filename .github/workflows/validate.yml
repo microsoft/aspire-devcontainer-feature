@@ -2,12 +2,19 @@ name: "Validate devcontainer-feature.json files"
 on:
   workflow_dispatch:
   pull_request:
+  workflow_call:
+
+permissions:
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: "Verify language-neutral feature metadata"
+        run: node test/aspire/metadata.test.js
 
       - name: "Validate devcontainer-feature.json files"
         uses: devcontainers/action@v1

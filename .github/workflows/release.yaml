@@ -5,8 +5,18 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
+  validate:
+    uses: ./.github/workflows/validate.yml
+
+  test:
+    uses: ./.github/workflows/test.yaml
+
   deploy:
+    needs: [validate, test]
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     permissions:

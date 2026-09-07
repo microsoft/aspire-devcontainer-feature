@@ -1,5 +1,6 @@
 
 # Aspire
 
-This repo builds, tests and publishes a devcontainer feature that installs Aspire and if necessary the .NET (dotnet) that it depends on. Options are provided to choose a different version or additional versions.
-See [README.md in the subfolder](src/aspire/README.md) for more information.
+A devcontainer feature that installs the Aspire CLI and configures VS Code extensions and port forwarding.
+
+See the [feature documentation](src/aspire/README.md) for usage and the `installCli` option.
